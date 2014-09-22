@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "damstat"
+        }, 
+        "damstat": {
+            "applicationId": "vfyL2kU0pBAqAa98MZ9ev9hKBSJQd3DBC3b9H6ST", 
+            "masterKey": "NgJfJcGcuaXo76xa2y729l5hoXk6Ul8XanTTbmb4"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.0"
+    }
+}

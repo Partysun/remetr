@@ -1,0 +1,94 @@
+.row {
+	width: 100%;
+	position: relative;
+}
+
+.row .grid {
+	float: left;
+}
+
+.row .grid.grid-1 {
+	width: 8.333333333333332%;
+}
+
+.row .grid.grid-2 {
+	width: 16.666666666666664%;
+}
+
+.row .grid.grid-3 {
+	width: 25%;
+}
+
+.row .grid.grid-4 {
+	width: 33.33333333333333%;
+}
+
+.row .grid.grid-5 {
+	width: 41.66666666666667%;
+}
+
+.row .grid.grid-6 {
+	width: 50%;
+}
+.row .grid.grid-7 {
+	width: 58.333333333333336%;
+}
+.row .grid.grid-8 {
+	width: 66.66666666666666%;
+}
+.row .grid.grid-9 {
+	width: 75%;
+}
+.row .grid.grid-10 {
+	width: 83.33333333333334%;
+}
+.row .grid.grid-11 {
+	width: 91.66666666666666%;
+}
+.row .grid.grid-12 {
+	width: 100%;
+	float: none;
+}
+
+.row:after { 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+.row { 
+	display: block;  
+}
+
+/* grid example */
+
+.grid-example {
+	margin-bottom: 15px;
+}
+
+.grid-example .grid {
+	padding: 10px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid-example .grid:nth-child(odd) {
+	background-color: #F3F3F3;
+}
+
+.grid-example .grid:nth-child(even) {
+	background-color: #EEEEEE;
+}
+
+@media screen and (max-width:640px) { 
+	
+	.row .grid {
+		float: none !important;
+		width: 100% !important;
+	}
+	
+}
+

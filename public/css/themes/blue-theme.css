@@ -1,0 +1,206 @@
+/* TOP */
+
+#frame-top {
+	background-image: url('../../img/blue/bg.jpg');
+}
+
+@media screen and (min-width: 641px){
+	
+	#frame-top-menu-wrap.on-move {
+		background-image: url('../../img/blue/bg.jpg');
+		background-position: top left;
+	}
+	
+}
+
+/* MENU */
+
+#frame-top-header .nav ul li a {
+	color: #fff;
+	border-bottom-color: #fff !important;
+}
+
+/* SLIDER TOP */
+
+#frame-top .slider .slide h1 {
+	color: #fff;
+}
+
+#frame-top .slider .slide p {
+	color: #FFFEFB;
+}
+
+#frame-top .slider .slide a {
+	color: #926A82;
+}
+
+#frame-top .slider .slide .btn-action {
+	border-color: #fff;
+	color: #fff;
+}
+
+/* H2 */
+
+h1,h2,h3,h4,h5,h6 {
+	color: #26617F;
+}
+
+/* FEATURES - ICON */
+
+.section-features .icon-linecons {
+	color: #59C1DA;
+}
+
+.section-features .e:nth-child(odd) .icon-linecons {
+	color: #2F6178;
+}
+
+/* REVIEWS */
+
+.section-reviews {
+		background-image: url('../../img/blue/bg-section.jpg');
+}
+
+.section-reviews .reviews-item .author .info .url{
+	color: #4CBCCA;
+}
+
+/* BUTTON */
+
+.btn.btn-primary {
+	background-color: #52C3D3;
+	border-color: #52C3D3;
+}
+
+.btn.btn-primary:hover {
+	background-color: #43A3B1;
+	border-color: #43A3B1;
+}
+
+/* Fix #1 */
+
+/* menu */
+
+#frame-top-header .nav ul li a {
+	color: #fff;
+	border-bottom-color: #fff !important;
+}
+
+/* slider */
+
+#frame-top .slider .slide h1 {
+	color: #333;
+}
+
+#frame-top .slider .slide p {
+}
+
+#frame-top .slider .slide .slide-content small {
+	color: #52768E;
+	border-top-color: #52768E;
+}
+
+#frame-top .slider .slide .slide-content .price-button .price {
+	color: #333;
+}
+
+#frame-top .slider .slide .slide-content .price-button .btn {
+	color: #fff;
+	background-color: #216D87;
+}
+
+#frame-top .slider .slide .slide-content .price-button .btn:hover {
+	background-color: #0F3F50;
+}
+
+
+/* about us / max feature - color */
+
+.section-max-feature .content h3,
+.stat-inside .stat-item .number {
+	color: #306C88;
+}
+
+/* pricing */
+
+.section-pricing h2 {
+	color: #4C4C40;
+}
+
+.section-pricing h5 {
+	color: #fff;
+}
+
+
+.section-pricing {
+	background-image: url('../../img/blue/bg.jpg');
+}
+
+.section-pricing .prices h3 {
+	color: #D08999;
+}
+
+.section-pricing .prices.pro h3 {
+	color: #F2B48D;
+}
+
+.section-pricing .prices .line {
+	background-color: #E4ADA8;
+}
+
+/* packages */
+
+.section-pricing .prices .btn-wrap a,
+.section-pricing .prices.eco {
+	background-color: #447F92;
+}
+
+.section-pricing .prices .line {
+	background-color: rgba(48, 155, 248, 0.27);
+}
+
+.section-pricing .prices.eco .btn-wrap {
+	background-color: #206d86;
+	border-bottom-color: #15576D;
+}
+
+.section-pricing .prices.pro .btn-wrap .btn {
+	background-color: #206d86;
+}
+
+.section-pricing .prices h3,
+.section-pricing .prices.pro h3 {
+	color: #306C88;
+}
+
+/* prices - btn */
+
+.section-pricing .prices.basic .btn-wrap a:hover,
+.section-pricing .prices.pro .btn-wrap a:hover,
+.section-pricing .prices.eco .btn-wrap a:hover {
+	background: #144055;
+	color: #fff;
+}
+
+/* BTN */
+
+.btn.btn-primary,
+.btn {
+	background-color: #206d86;
+}
+
+.btn.btn-primary:hover,
+.btn:hover {
+	background-color: #144055;
+}
+
+/* footer */
+
+#frame-footer .footer-top-wrap .twitter .left .btn {
+	border-color: #fff;
+	color: #fff;
+}
+
+
+
+

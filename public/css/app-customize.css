@@ -1,0 +1,66 @@
+#layout-switcher {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background: rgba(0,0,0,.7);
+	
+	padding: 10px 15px;
+	
+	border-top-right-radius: 2px;
+        
+        z-index: 1;
+}
+
+#layout-switcher .btn-layout {
+	float: left;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: #fff;
+	border: 0px;
+	margin-right: 8px;
+	border: 2px solid #ccc;
+	}
+
+#layout-switcher .btn-layout:last-child {
+	margin-right: 0px;
+}
+
+#layout-switcher .btn-layout.green {
+	background-color: rgb(0,182,145);
+}
+
+#layout-switcher .btn-layout.blue {
+	background-color: rgb(56,196,210);
+}
+
+#layout-switcher .btn-layout.silver {
+	background-color: rgb(202,196,177);
+}
+
+#layout-switcher .btn-layout.purple {
+	background-color: rgb(208,137,152);
+}
+
+#layout-switcher .btn-layout.violet {
+	background-color: rgb(68,82,95);
+}
+
+#layout-switcher .label {
+	float: left;
+	margin-right: 12px;
+	margin-top: 0px;
+
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+
+@media screen and (max-width:1024px) { 
+	
+	#layout-switcher { 
+		display: none;
+	}
+
+}

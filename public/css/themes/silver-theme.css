@@ -1,0 +1,186 @@
+/* TOP */
+
+#frame-top {
+	background-image: url('../../img/silver/bg.jpg');
+}
+
+@media screen and (min-width: 641px){
+	
+	#frame-top-menu-wrap.on-move {
+		background-image: url('../../img/silver/bg.jpg');
+		background-position: top left;
+	}
+	
+}
+
+/* MENU */
+
+#frame-top-header .nav ul li a {
+	color: #fff;
+	border-bottom-color: #fff !important;
+}
+
+/* SLIDER TOP */
+
+#frame-top .slider .slide h1 {
+	color: #2D4758;
+}
+
+#frame-top .slider .slide h1 strong {
+	color: #fff;
+}
+
+#frame-top .slider .slide p {
+	color: #FFFEFB;
+}
+
+#frame-top .slider .slide a {
+	color: #fff;
+}
+
+#frame-top .slider .slide .btn-action {
+	border-color: #fff;
+	color: #fff;
+}
+
+/* H2 */
+
+h1,h2,h3,h4,h5,h6 {
+	color: #495973;
+}
+
+/* FEATURES - ICON */
+
+.section-features .icon-linecons {
+	color: #3499F3;
+}
+
+.section-features .e:nth-child(odd) .icon-linecons {
+	color: #6D7987;
+}
+
+/* REVIEWS */
+
+.section-reviews {
+	background-image: url('../../img/silver/bg-section.jpg');
+}
+
+.section-reviews h2,
+.section-reviews h5 {
+	color: #2F4654;
+}
+
+.section-reviews .reviews-item .author .info .url{
+	color: #2A9CF2;
+}
+
+.section-reviews .reviews-item .author .info .name,
+.section-reviews .reviews-item .author .info .occupation {
+	color: #354555;
+}
+
+/* BUTTON */
+
+.btn.btn-primary {
+	background-color: #309BF9;
+	border-color: #309BF9;
+}
+
+.btn.btn-primary:hover {
+	background-color: #118DFA;
+	border-color: #118DFA;
+}
+
+/* Fix #1 */
+
+/* menu */
+
+#frame-top-header .nav ul li a {
+	color: #354962;
+	border-bottom-color: #354962 !important;
+}
+
+/* slider */
+
+#frame-top .slider .slide p {
+	color: #525F68;
+}
+
+#frame-top .slider .slide .slide-content small {
+	color: #CCCDC8;
+	border-top-color: #CCCDC8;
+}
+
+#frame-top .slider .slide .slide-content .price-button .price {
+	color: #fff;
+}
+
+/* about us / max feature - color */
+
+.section-max-feature .content h3,
+.stat-inside .stat-item .number,
+.section-pricing h2,
+.section-pricing h5 {
+	color: #4A5872;
+}
+
+/* pricing */
+
+.section-pricing {
+	background-image: url('../../img/silver/bg.jpg');
+}
+
+.section-pricing .prices h3 {
+	color: #309bf8;
+}
+
+.section-pricing .prices.basic .btn-wrap .btn,
+.section-pricing .prices.pro .btn-wrap .btn,
+.section-pricing .prices.eco {
+	background-color: #309bf8;
+}
+
+.section-pricing .prices.basic .btn-wrap .btn:hover,
+.section-pricing .prices.pro .btn-wrap .btn:hover {
+	background-color: #32475C;
+}
+
+.section-pricing .prices.eco .btn-wrap .btn:hover {
+	background-color: #ccc;
+}
+
+.section-pricing .prices .line {
+	background-color: rgba(48, 155, 248, 0.27);
+}
+
+.section-pricing .prices.eco .btn-wrap {
+	background-color: #32475c;
+	border-bottom-color: #22374D;
+}
+
+/* BTN */
+
+.btn,
+.btn-pimary {
+	background-color: #309bf8;
+}
+
+.btn:hover,
+.btn-pimary:hover {
+	background-color: #32475C;
+}
+
+/* footer */
+
+#frame-footer .footer-top-wrap .twitter .left .btn {
+	border-color: #fff;
+	color: #fff;
+}
+
+/* slider color */
+
+#frame-top .slider .slide .slide-content p {
+	color: #fff
+}
+
+

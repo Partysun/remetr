@@ -1,0 +1,6 @@
+/* btn prices */
+
+.section-pricing .prices.eco .btn-wrap .btn:hover {
+	background-color: #3276b1;
+	color: #fff;
+}
